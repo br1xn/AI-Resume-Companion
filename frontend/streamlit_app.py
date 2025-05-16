@@ -19,7 +19,7 @@ if uploaded_file and job_title:
         files = {"resume": uploaded_file}  # Pass the uploaded file object directly
         data = {"job_title": job_title}
 
-        response = requests.post("{FASTAPI_BASE_URL}/analyze_resume", files=files, data=data)
+        response = requests.post(f"{FASTAPI_BASE_URL}/analyze_resume", files=files, data=data)
 
     if response.status_code == 200:
         try:

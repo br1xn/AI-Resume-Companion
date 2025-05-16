@@ -82,4 +82,4 @@ else:
 
 st.markdown("---")
 if st.button("Go back to Main Analysis"):
-    st.switch_page("app.py")
+    st.switch_page("streamlit_app.py")
