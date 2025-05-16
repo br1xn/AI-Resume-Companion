@@ -21,11 +21,6 @@ The **AI Resume Companion** is a web application designed to help job seekers op
 * **Backend:** FastAPI, Gemini, PDFPlumber, BeautifulSoup4 & HTTPX
 * **Deployment:** Render
 ---
-## ☁️ Live Application
-
-Access the deployed application here:
-➡️ **[app](https://resume-companion-app.onrender.com/)**
-
 ## Demo video
 https://github.com/user-attachments/assets/c53d4a12-ac79-498e-84b7-694243abd8d0
 
